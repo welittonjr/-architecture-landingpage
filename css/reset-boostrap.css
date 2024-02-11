@@ -1,12 +1,3 @@
-.btn-primary-brow {
-  background-color: var(--brown-strong);
-  border-color: var(--brown-strong);
-}
-
-.btn-primary-brow:hover {
-  background-color: var(--brown-light);
-  border-color: var(--brown-light);
-}
 
 .accordion-button:not(.collapsed) {
   color: var(--white);
