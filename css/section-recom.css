@@ -1,0 +1,39 @@
+.recommend-image,
+.recommend-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.recommend-desc {
+  flex-direction: column;
+}
+
+.recommend-apre-image {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.recommend-apre-image img {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 1200px) {
+  .recommend-image,
+  .recommend-desc {
+    margin-bottom: 2em;
+  }
+}
+
+/* @media screen and (max-width: 768px) {
+
+} */
+
+/* @media screen and (max-width: 576px) {
+  .recommend-desc h1,
+  .recommend-desc p {
+    text-align: justify;
+  }
+} */

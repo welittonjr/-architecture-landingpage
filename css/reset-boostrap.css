@@ -1,0 +1,38 @@
+.btn-primary-brow {
+  background-color: var(--brown-strong);
+  border-color: var(--brown-strong);
+}
+
+.btn-primary-brow:hover {
+  background-color: var(--brown-light);
+  border-color: var(--brown-light);
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--white);
+  background-color: var(--brown-light);
+}
+
+.accordion-button:focus {
+  border-color: var(--brown) !important;
+  box-shadow: 0 0 0 0.25rem rgba(225, 118, 4, 0.25);
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(225, 118, 4, 0.25);
+    border-color: var(--brown-light);
+}
+
+.element-center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.element-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center !important;
+}
+

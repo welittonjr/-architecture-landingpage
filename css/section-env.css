@@ -1,0 +1,47 @@
+.env-desc,
+.env-image {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.env-desc {
+  flex-direction: column;
+}
+
+.env-desc h4 {
+  text-align: center;
+}
+
+.env-desc p {
+  text-align: justify;
+}
+
+.env-apre-image {
+  max-width: 100%;
+  width: 60%;
+  height: auto;
+}
+
+.env-apre-image img {
+  border-radius: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 1200px) {
+  .env-apre-image {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .env-apre-image {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .env-apre-image {
+    width: 100%;
+  }
+}
