@@ -18,14 +18,28 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 }
 
-.recommend-desc h1,
+.recommend-desc h4,
 .recommend-desc p {
   text-align: start;
+}
+
+.recommend-desc h4 {
+  font-size: 1.2rem;
+}
+
+.recommend-desc p {
+  font-size: 1.2rem;
 }
 
 @media screen and (max-width: 1200px) {
   .recommend-image,
   .recommend-desc {
     margin-bottom: 2em;
+    padding: 0px;
+  }
+
+  .recommend-desc h4,
+  .recommend-desc p {
+    text-align: justify;
   }
 }

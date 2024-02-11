@@ -59,6 +59,10 @@ section {
   text-transform: uppercase;
 }
 
+.text-center {
+  text-align: center;
+}
+
 /* GLOBAL CSS */
 
 .wrapper {
@@ -179,6 +183,15 @@ section {
 
 .section-title {
   margin-bottom: 3em;
+}
+
+.section-title h1 {
+  font-size: 2rem;
+}
+
+.section-title p {
+  font-size: 1.4rem;
+  text-align: justify;
 }
 
 .container {
