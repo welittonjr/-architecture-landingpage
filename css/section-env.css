@@ -9,12 +9,14 @@
   flex-direction: column;
 }
 
-.env-desc h4 {
+.env-desc h1 {
   text-align: center;
+  font-size: 2rem;
 }
 
 .env-desc p {
   text-align: justify;
+  font-size: 1.2rem;
 }
 
 .env-apre-image {
