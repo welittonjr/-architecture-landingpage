@@ -20,11 +20,27 @@
 .felt-desc {
   flex-direction: column;
   justify-content: space-between;
-  align-items: start;
+  align-items: center;
 }
 
 .felt-desc h1, .felt-desc p, .felf-desc h2 {
   text-align: start;
+}
+
+.felt-desc h1 {
+  font-size: 2rem;
+}
+
+.felt-desc  p {
+  font-size: 1.2rem;
+}
+
+.felt-desc  h2 {
+  font-size: 1.5rem;
+}
+
+.felt-desc  a {
+  align-self: center;
 }
 
 @media screen and (max-width: 1200px) {
@@ -52,5 +68,8 @@
 @media screen and (max-width: 768px), (max-width: 576px) {
   .frustration-video {
     width: 70%;
+  }
+  .felt-desc  h2 {
+    font-size: 1.5rem;
   }
 }

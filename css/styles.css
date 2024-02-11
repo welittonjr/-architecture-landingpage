@@ -50,8 +50,13 @@ section {
 .font-italic {
   font-style: italic;
 }
+
 .font-bold {
   font-weight: 900;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
 }
 
 /* GLOBAL CSS */
@@ -156,7 +161,8 @@ section {
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.25rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   text-decoration: none;
 }
 
@@ -170,7 +176,6 @@ section {
   background-color: var(--brown-light);
   border-color: var(--brown-light);
 }
-
 
 .section-title {
   margin-bottom: 3em;
