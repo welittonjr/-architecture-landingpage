@@ -13,17 +13,3 @@
     box-shadow: 0 0 0 0.25rem rgba(225, 118, 4, 0.25);
     border-color: var(--brown-light);
 }
-
-.element-center {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-
-.element-column-center {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center !important;
-}
-

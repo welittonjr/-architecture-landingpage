@@ -1,0 +1,45 @@
+.perfil-image {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.perfil-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center !important;
+}
+
+.perfil-apre-image {
+  max-width: 100%;
+  width: 60%;
+  height: auto;
+}
+
+.perfil-desc h1 {
+  font-size: 2rem;
+}
+
+.perfil-desc p {
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .perfil-image {
+    margin-bottom: 1em;
+  }
+
+  .perfil-desc h1 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .perfil-apre-image {
+    width: 90%;
+  }
+  .perfil-desc p {
+    text-align: justify;
+  }
+}
