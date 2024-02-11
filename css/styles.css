@@ -3,6 +3,7 @@
 @import url(./section-felt.css);
 @import url(./section-env.css);
 @import url(./section-recom.css);
+@import url(./section-consul.css);
 @import url(./social-media.css);
 @import url(./animation.css);
 
@@ -89,16 +90,6 @@ section {
   height: 100% !important;
 }
 
-.consultancy-img {
-  height: 10em;
-  width: 10em;
-  margin-bottom: 2em;
-}
-
-.consultancy-img img {
-  border-radius: 100%;
-}
-
 .image-perfil {
   max-width: 60%;
   height: auto;
@@ -150,15 +141,6 @@ section {
 
 .index-1 {
   z-index: 1;
-}
-
-.card-my {
-  width: 60%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
 }
 
 .section-title {
