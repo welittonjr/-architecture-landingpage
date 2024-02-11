@@ -1,0 +1,11 @@
+.deposition-image {
+    width: 60%;
+    height: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  }
+
+.deposition-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
