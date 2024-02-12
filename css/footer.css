@@ -1,0 +1,52 @@
+.parallax {
+    background-image: url("../image/contact.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    padding: 40px 0;
+  }
+  
+  .parallax::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 0;
+  }
+  
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .contact p,
+  .contact span {
+    font-size: 1.5rem;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .parallax {
+      height: auto;
+    }
+  }
+  
+  @media screen and (max-width: 768px), (max-width: 576px) {
+    .contact p {
+      font-size: 15px;
+    }
+    .contact span {
+      font-size: 12px;
+      margin-bottom: 1rem;
+    }
+  }

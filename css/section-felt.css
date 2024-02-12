@@ -69,7 +69,15 @@
   .frustration-video {
     width: 70%;
   }
+  .felt-desc h1 {
+    font-size: 18px;
+    font-weight: 900;
+  }
+  .felt-desc p {
+    font-size: 15px;
+  }
   .felt-desc  h2 {
-    font-size: 1.5rem;
+    font-size: 12px;
+    font-weight: 900;
   }
 }

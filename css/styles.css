@@ -1,5 +1,6 @@
 @import url(./reset-boostrap.css);
 @import url(./reset.css);
+@import url(./animation.css);
 @import url(./bg-video.css);
 @import url(./section-felt.css);
 @import url(./section-env.css);
@@ -9,7 +10,8 @@
 @import url(./section-deposition.css);
 @import url(./section-warning.css);
 @import url(./social-media.css);
-@import url(./animation.css);
+@import url(./footer.css);
+
 
 * {
   padding: 0;
@@ -97,48 +99,6 @@ section {
 
 .bg-black {
   background-color: var(--black);
-}
-
-.parallax {
-  background-image: url("../image/contact.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  width: 100%;
-  height: 40vh;
-}
-
-.parallax::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.9);
-  z-index: 0;
-}
-
-.contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-}
-
-.contact p,
-.contact span {
-  font-size: 1.5rem;
-}
-
-@media screen and (max-width: 1200px) {
-  .parallax {
-    height: auto;
-  }
 }
 
 .index-1 {
@@ -297,4 +257,14 @@ section {
     max-width: 540px;
     padding: 0 3em;
   }
+
+  .section-title h1 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  
+  .section-title p {
+    font-size: 15px;
+  }
+
 }

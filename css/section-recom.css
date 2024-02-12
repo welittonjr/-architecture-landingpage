@@ -43,3 +43,12 @@
     text-align: justify;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .recommend-desc h4 {
+    font-size: 16px;
+  }
+  .recommend-desc p {
+    font-size: 15px;
+  }
+}

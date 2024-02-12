@@ -46,4 +46,11 @@
   .env-apre-image {
     width: 100%;
   }
+  .env-desc h1 {
+    font-size: 25px;
+  }
+  
+  .env-desc p {
+    font-size: 15px;
+  }
 }

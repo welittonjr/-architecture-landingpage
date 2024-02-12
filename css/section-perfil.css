@@ -39,7 +39,11 @@
   .perfil-apre-image {
     width: 90%;
   }
+  .perfil-desc h1 {
+    font-size: 25px;
+  }
   .perfil-desc p {
     text-align: justify;
+    font-size: 15px;
   }
 }
